@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
 import Mailgun from "mailgun.js";
-const MAILGUN_DOMAIN = "YOUR_MAINLGUN_DOMAIN";
+const MAILGUN_DOMAIN = "YOUR_MAILGUN_DOMAIN";
 const MAILGUN_API_KEY = "YOUR_MAILGUN_API_KEY";
 
 export async function POST(req) {
